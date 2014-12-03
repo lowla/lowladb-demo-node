@@ -5,8 +5,8 @@
 
 ### Prerequisites ###
 
-The sample application requires local instance of MongoDB running on the default port.  This example also assumes that
-`npm` and `bower` are present and available from the command line.
+This example assumes that `git`, `npm` and `bower` are present and available from the command line.  It uses LowlaDB's
+included NEDB datastore to store documents needed by the LowlaDB server and the TODO application itself.
 
 ### Installing and Running ###
 
