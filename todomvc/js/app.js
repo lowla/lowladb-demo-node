@@ -48,7 +48,7 @@ jQuery(function ($) {
       });
 
       this.todos = lowla.collection('lowlaSample', 'todos');
-      lowla.sync('http://localhost:3000', { pollFrequency: 500 });
+      lowla.sync(location.protocol + '//' + location.host);
       this.todos.find({}).sort('title').on(function(err, cursor) {
         this.render(cursor);
       }.bind(this));

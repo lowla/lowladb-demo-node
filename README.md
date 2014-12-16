@@ -21,6 +21,6 @@ To install and run this example, perform the following steps:
   * `bower install`
   * `cd ..`
 4. Start the Node server
-  * `node bin/www`
+  * `node app.js`
 5. Open the TodoMVC page
   * `http://localhost:3000/index.html`
